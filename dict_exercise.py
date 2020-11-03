@@ -26,3 +26,9 @@ print(user_details)
 
 # displayed hobbies list in reverese order
 print(user_details["hobbies"][::-1])
+
+# Making changes to hobby list in dictionary
+user_details["hobbies"].append("running")
+print(user_details["hobbies"])
+user_details["hobbies"].remove("movies")
+print(user_details["hobbies"])

@@ -14,3 +14,4 @@ print(students_data["lesson names"][2])
 
 # .key() - returns all keys in the dictionary
 # .values() - returns all values
+
